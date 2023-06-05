@@ -14,18 +14,18 @@
     justify-content: space-between;
     margin-bottom: 40px;
     border-bottom: 1px solid #cecece;
-    font-size: max(15px, 1.5vw);
+    font-size: max(14px, 1.5vw);
   }
   .color {
     color: blue;
-    font-size: max(15px, 1.75vw);
+    font-size: max(13px, 1.75vw);
   }
   .body {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-bottom: 20px;
-    font-size: max(15px, 1.75vw);
+    font-size: max(13px, 1.75vw);
     border-bottom: 1px solid #cecece;
   }
   .box {
@@ -72,7 +72,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 20px 0;
-    font-size: max(15px, 1.75vw);
+    font-size: max(13px, 1.75vw);
     border-bottom: 1px solid #cecece;
   }
   .p-2 {
@@ -80,7 +80,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 20px 0;
-    font-size: max(15px, 1.75vw);
+    font-size: max(13px, 1.75vw);
     border-bottom: 1px solid #cecece;
   }
   .p-3 {
@@ -88,7 +88,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 20px 0;
-    font-size: max(15px, 1.75vw);
+    font-size: max(13px, 1.75vw);
     border-bottom: 1px solid #cecece;
   }
   .p-4 {
@@ -96,7 +96,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 20px 0;
-    font-size: max(15px, 1.75vw);
+    font-size: max(13px, 1.75vw);
     border-bottom: 1px solid #cecece;
   }
 
@@ -136,6 +136,7 @@
 @media (max-width: 640px) {
   .task .task-container {
     width: 100%;
+    margin-left: -20px;
   }
 }
 @media (max-width: 580px) {
@@ -146,22 +147,47 @@
 @media (max-width: 510px) {
   .task .task-container {
     width: 100%;
-
   }
   .task .body {
     gap: 40px;
   }
+  .task .colors {
+    padding: 10px 20px;
+  }
+  .task .colors1 {
+    padding: 10px 20px;
+  }
+  .task .colors2 {
+    padding: 10px 20px;
+  }
+  .task .colors3 {
+    padding: 10px 20px;
+  }
+  .task .colors4 {
+    padding: 10px 20px;
+  }
+  .task .btn1{
+    gap: 10px;
+  }
+  .task .button-1 {
+    width: max(55px, 4vw);
+    height: max(40px, 2.5vw);
+  }
+  .task .button-2 {
+    width: max(55px, 6vw);
+    height: max(40px, 2.5vw);
+  }
 }
 @media (max-width: 470px) {
   .task .task-container {
-    width: 120%;
+    width: 110%;
     margin-left: -35px;
   }
 }
 @media (max-width: 450px) {
   .task .task-container {
-    width: 120%;
-    margin-left: -38px;
+    width: 115%;
+    margin-left: -45px;
   }
   p {
     width: 40%;
@@ -181,11 +207,29 @@
 }
 @media (max-width: 350px) {
   .task .task-container {
-    width: 130%;
-    margin-left: -53px;
+    width: 120%;
+    margin-left: -40px;
   }
   p {
     width: 40%;
   }
  
+}
+@media (max-width: 335px) {
+  .task .task-container {
+    width: 130%;
+    margin-left: -50px;
+  }
+}
+@media (max-width: 320px) {
+  .task .task-container {
+    width: 130%;
+    margin-left: -48px;
+  }
+}
+@media (max-width: 305px) {
+  .task .task-container {
+    width: 137%;
+    margin-left: -50px;
+  }
 }
