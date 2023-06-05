@@ -7,8 +7,11 @@
         justify-content: center;
     }
     .btn{
-        padding: 10px 20px;
+        width: max(85px, 6vw);
+        height: max(40px, 2.5vw);
         background: rgb(189, 179, 193);
         color: white;
+        border: none;
+        font-size: max(12px,1.25vw);
     }
 }
