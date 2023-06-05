@@ -189,17 +189,32 @@
     width: 115%;
     margin-left: -45px;
   }
-  p {
-    width: 40%;
+}
+@media (max-width: 417px) {
+  .task .p-4{
+   gap: 50px !important;
   }
 }
+@media (max-width: 397px) {
+  .task .p-4{
+   gap: 30px !important;
+  }
+  @media (max-width: 380px) {
+    .task .p-4{
+     gap: 20px !important;
+    }
+  }
+}
+@media (max-width: 370px) {
+  .task .p-4{
+   gap: 10px !important;
+  }
+}
+
 @media (max-width: 400px) {
   .task .task-container {
     width: 115%;
     margin-left: -38px;
-  }
-  p {
-    width: 30%;
   }
   .task .color{
     padding-left: 30px;
@@ -209,9 +224,6 @@
   .task .task-container {
     width: 120%;
     margin-left: -40px;
-  }
-  p {
-    width: 40%;
   }
  
 }
